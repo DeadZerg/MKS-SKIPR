@@ -51,7 +51,7 @@ MKS SKIPR supports USB WiFi Adapter, but not every type is guaranteed to be avai
 Insert the USB WiFi adapter to one of the 3 usb ports of MKS SKIPR, you have two ways to config it to connect to your router.
 #### Through the config file on the TF card
 - Before power on, insert the TF card to the PC with TF card reader, it would generate two disks on PC
-- Open the "Boot" disk, find the config file "**wpa_supplicant-wlan0.conf**" and open it with text editing software (e.g. notepad, notepad++, etc.)
+- Open the "Boot" disk, find the config file "**~~wpa_supplicant-wlan0.conf~~  armbian_first_run.txt.template**" and open it with text editing software (e.g. notepad, notepad++, etc.)
 - Modify the ssid and psk according to your router, save the config file 
 - Remove the TF card from the PC, and insert it to the MKS SKIPR
 It would connect to your router automatically.
